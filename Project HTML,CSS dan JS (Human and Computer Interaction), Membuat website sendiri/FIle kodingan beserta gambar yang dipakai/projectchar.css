@@ -1,0 +1,220 @@
+.dropdown-content a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content{
+    display: none;
+    background: white;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.dropdown button{
+    background: transparent;
+    color: black;
+    border: none;
+    margin-left: 3vw;
+}
+
+.dropdown button{
+    font-size: large;
+}
+
+.dropdown{
+    height: 5vh;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: aquamarine;
+}
+
+.dropdown-content{
+    position: static;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("char-back.jpg");
+    /* biar background tidak bergerak */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(54, 50, 50, 0.5);
+    align-items: center;
+    padding: 2vh;
+    justify-content: space-between;
+}
+
+.nav-left img{
+    width: 180px;
+    height: 120px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-middle h1{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.content p{
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color:white;
+}
+
+.char-name{
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.cb-content{
+    margin: 8vw;
+}
+
+.content-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.char-img1{
+    width: 260px;
+    height: 283px;
+    background-image: url("diluc.png");
+    background-size: cover;
+}
+
+.char-img1:hover{
+    width: 260px;
+    height: 400px;
+    background-image: url("diluchover.jpg");
+    background-size:cover;
+}
+
+.char-img2{
+    width: 260px;
+    height: 283px;
+    background-image: url("jean.png");
+    background-size: cover;
+}
+
+.char-img2:hover{
+    width: 260px;
+    height: 400px;
+    background-image: url("jeanhover.jpg");
+    background-size:cover;
+}
+
+.char-img3{
+    width: 260px;
+    height: 283px;
+    background-image: url("venti.png");
+    background-size: cover;
+}
+
+.char-img3:hover{
+    width: 260px;
+    height: 400px;
+    background-image: url("ventihover.jpg");
+    background-size:cover;
+}
+
+.content-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.char-img4{
+    width: 260px;
+    height: 283px;
+    background-image: url("kaeya.png");
+    background-size: cover;
+}
+
+.char-img4:hover{
+    width: 260px;
+    height: 400px;
+    background-image: url("kaeyahover.jpg");
+    background-size:cover;
+}
+
+.char-img5{
+    width: 260px;
+    height: 283px;
+    background-image: url("barbara.png");
+    background-size: cover;
+}
+
+.char-img5:hover{
+    width: 260px;
+    height: 400px;
+    background-image: url("barbarahover.jpg");
+    background-size:cover;
+}
+
+.char-img6{
+    width: 260px;
+    height: 283px;
+    background-image: url("amber.png");
+    background-size: cover;
+}
+
+.char-img6:hover{
+    width: 260px;
+    height: 400px;
+    background-image: url("amberhover.jpg");
+    background-size:cover;
+}
+
+.content-description{
+    background-color: rgba(92, 89, 89, 0.849);
+    padding-bottom: 5vh;
+}
+
+.content-description img{
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-description h1{
+    font-size: x-large;
+}

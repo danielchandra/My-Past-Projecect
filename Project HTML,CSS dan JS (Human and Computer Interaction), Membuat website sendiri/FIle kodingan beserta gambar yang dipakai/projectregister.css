@@ -1,0 +1,111 @@
+.dropdown-content a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content{
+    display: none;
+    background: white;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.dropdown button{
+    background: transparent;
+    color: black;
+    border: none;
+    margin-left: 3vw;
+}
+
+.dropdown button{
+    font-size: large;
+}
+
+.dropdown{
+    height: 5vh;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: aquamarine;
+}
+
+.dropdown-content{
+    position: static;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("register-back.jpg");
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(58, 56, 56, 0.5);
+    align-items: center;
+    padding: 2vh;
+    justify-content: space-between;
+}
+
+.nav-left img{
+    width: 180px;
+    height: 120px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-middle h1{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    border : 2px solid black;
+    width: 60vw;
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+.content label{
+    font-size: larger;
+}
+
+form div div {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 0;
+}
+
+form > div > div > input {
+    width: 30vw;
+}
+
+.error {
+    color: red;
+}

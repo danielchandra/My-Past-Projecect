@@ -1,0 +1,215 @@
+.dropdown-content a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content{
+    display: none;
+    background: white;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.dropdown button{
+    background: transparent;
+    color: black;
+    border: none;
+    margin-left: 3vw;
+}
+
+.dropdown button{
+    font-size: large;
+}
+
+.dropdown{
+    height: 5vh;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: aquamarine;
+}
+
+.dropdown-content{
+    position: static;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("about-back.jpg");
+    /* biar image gak bergerak sewaktu scroll */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(3, 182, 189, 0.123);
+}
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(49, 46, 46, 0.5);
+    align-items: center;
+    padding: 2vh;
+    justify-content: space-between;
+}
+
+.nav-left img{
+    width: 180px;
+    height: 120px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-middle h1{
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.main-img{
+    /* border-style: groove;
+    border-color: gray;
+    border-width: 10px; */
+    height: 65vh;
+    width: 70vw;
+}
+
+.content p{
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.explaination{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.content h1{
+    font-size: xx-large;
+}
+
+/* 
+.feature{
+    border-style: groove;
+    border-color: gray;
+    border-width: 10px;
+    padding: 8px;
+} */
+
+.feature img{
+    height: 60vh;
+    width: 60vw;
+}
+
+.feature1{
+    border-style: groove;
+    border-width: 10px;
+    border-color: gray;
+    padding: 10px;
+    background-color: rgb(219, 202, 145);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding: 10px; */
+    margin-right: 30vw;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 12vh;
+}
+
+.feature2{
+    border-style: groove;
+    border-width: 10px;
+    border-color: gray;
+    padding: 10px;
+    background-color: rgb(219, 202, 145);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding: 10px; */
+    margin-left: 30vw;
+    justify-content:right;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 12vh;
+}
+
+.feature3{
+    border-style: groove;
+    border-width: 10px;
+    border-color: gray;
+    padding: 10px;
+    background-color: rgb(219, 202, 145);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding: 10px; */
+    margin-right: 30vw;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 12vh;
+}
+
+.feature4{
+    border-style: groove;
+    border-width: 10px;
+    border-color: gray;
+    padding: 10px;
+    background-color: rgb(219, 202, 145);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding: 10px; */
+    margin-left: 30vw;
+    justify-content:right;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 12vh;
+}
+
+.feature5{
+    border-style: groove;
+    border-width: 10px;
+    border-color: gray;
+    padding: 10px;
+    background-color: rgb(219, 202, 145);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding: 10px; */
+    margin-right: 30vw;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 12vh;
+}

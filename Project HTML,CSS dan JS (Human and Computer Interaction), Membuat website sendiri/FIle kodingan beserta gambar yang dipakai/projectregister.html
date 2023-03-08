@@ -1,0 +1,87 @@
+<!-- Daniel Chandra - 2301888631
+Alvin Harjadi - 2301873296
+Leonardo Dylan - 2301896753 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projectregister.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="nav-left">            
+            <img src="kenshinlogo.png" alt="">
+        </div>
+        <div class="nav-midde">
+            <h1>REGISTER</h1>
+        </div>
+        <div class="nav-right">
+            <div class="dropdown">
+                <button>MENU NAVIGATION</button>
+                <div class="dropdown-content">
+                    <a href="projecthome.html">HOME</a>
+                    <a href="projectchar.html">Characters</a>
+                    <a href="projectabout.html">About Game</a>
+                    <a href="projectgallery.html">Gallery</a>
+                    <a href="projectregister.html">Register</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- register -->
+    <div class="content">
+    <h1>
+        Let's Make Your Kenshin Impact Account by Registering The Form Below
+    </h1>
+    <!-- <form name="formname" onsubmit="return false"> -->
+    <form action="" id="tes" onsubmit="return false">
+        <div>
+            <div>
+                <label for="">E-mail</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <label for="" class="error" id="email-error"></label>
+        </div>
+        <div>
+            <div>
+                <label for="">Username (1-20 char)</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <label for="" class="error" id="username-error"></label>
+        </div>
+        <div>
+            <div>
+                <label for="">Password (min 8 char)</label>
+                <input type="text" id="password">
+            </div>
+            <label for="" class="error" id="password-error"></label>
+        </div>
+        <div>
+            <div>
+                <label for="">Confirm Password</label>
+                <input type="text" id="confirmPass">
+            </div>
+            <label for="" class="error" id="confirmPass-error"></label>
+        </div>
+        <div>
+                <div class="agree2">
+                    <input type="checkbox" name="agree" id="agree" value="agreed">
+                    <label for="agree">I agree with terms and conditions</label>
+                </div>
+        </div>
+        <label for="" class="error" id="agree-error"></label>
+        <div>
+            <button onclick="submitForm()">Submit</button>
+        </div>
+    </form>
+    <script src="./scriptregistration.js"></script>
+</div>
+</body>
+</html>

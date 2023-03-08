@@ -1,0 +1,75 @@
+<!-- Daniel Chandra - 2301888631
+Alvin Harjadi - 2301873296
+Leonardo Dylan - 2301896753 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projecthome.css">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="scripthome.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="nav-left">            
+            <img src="kenshinlogo.png" alt="">
+        </div>
+        <div class="nav-midde">
+            <h1>HOME PAGE</h1>
+        </div>
+        <div class="nav-right">
+            <div class="dropdown">
+                <button>MENU NAVIGATION</button>
+                <div class="dropdown-content">
+                    <a href="projecthome.html">HOME</a>
+                    <a href="projectchar.html">Characters</a>
+                    <a href="projectabout.html">About Game</a>
+                    <a href="projectgallery.html">Gallery</a>
+                    <a href="projectregister.html">Register</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="content">
+        <div>
+            <h1>Kenshin Impact</h1>
+            <div class="slider-out">
+                <img src="arrow-left.png" class="prev" alt="">
+                <div class="slider-in">
+                    <img src="slider1.jpg" class="active" alt="">
+                    <img src="maingif.gif" alt="">
+                    <img src="slider2.jpg" alt="">
+                </div>
+                <img src="arrow-right.png" class="next" alt="">
+            </div>
+            <p>Kenshin Impact is an action role-playing game developed and published by Mihoyoman. The game features an open-world environment and action-based battle system using elemental magic and character-switching, and uses gacha game monetization for players to obtain new characters, weapons, and other resources. The game is online-only and features a limited multiplayer mode allowing up to four players to play together</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Ours Official Social Media</p>
+        <a href="https://www.instagram.com/genshinimpact/">
+            <img src="ig.png" alt="">
+        </a>
+        <a href="https://twitter.com/GenshinImpact/">
+            <img src="twitter_logo.png" alt="">
+        </a>
+        <a href="https://www.facebook.com/Genshinimpact/">
+            <img src="fb.png" alt="">
+        </a>
+    </div>
+    <script>
+        var dropdown1 = document.getElementsByClassName("dropdown");
+        var dropdownContent = document.getElementsByClassName("dropdown-content");
+        console.log(dropdownContent)
+        dropdown[0].addEventListener("click", function(){
+            dropdownContent[0].style.display ="block";
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+.dropdown-content a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content{
+    display: none;
+    background: white;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.dropdown button{
+    background: transparent;
+    color: black;
+    border: none;
+    margin-left: 3vw;
+}
+
+.dropdown button{
+    font-size: large;
+}
+
+.dropdown{
+    height: 5vh;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: aquamarine;
+}
+
+.dropdown-content{
+    position: static;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 247, 255, 0.123);
+}
+
+.header{
+    background-image: url("homewallpaper.jpg");
+    /* background-image: url("Screenshot3.jpg"); */
+    height: 55vh;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    padding: 2vh;
+    justify-content: space-between;
+}
+
+.nav-left img{
+    width: 180px;
+    height: 120px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-middle h1{
+    text-align: center;
+}
+
+/* .nav-right button{
+    color: aquamarine;
+    font-weight: bold;
+} */
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    /* margin: 5vw; */
+    margin-bottom: 5vh;
+}
+
+/* Buat Jquery Slider  */
+
+.next{
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+    float: left;
+    margin-top: 250px;
+    margin-left: 1vw;
+}
+
+.prev{
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+    float: left;
+    margin-top: 250px;
+    margin-right: 1vw;
+}
+
+.slider-out{
+    margin-left: 6.5vw;
+}
+
+.slider-in{
+    float: left;
+    position: relative;
+}
+
+.slider-in img{
+    display: none;
+    width: 960px;
+    height: 480px;
+}
+
+.slider-in img.active{
+    display: inline-block;
+}
+
+.content h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 300%;
+}
+
+.content p{
+    margin-top: 550px;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: xx-large;
+    color: white;
+}
+
+.footer img{
+    width: 70px;
+    height: 70px;
+    color: white;
+    margin-inline: 3vw;
+}
